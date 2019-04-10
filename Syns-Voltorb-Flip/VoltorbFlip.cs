@@ -68,6 +68,21 @@ namespace Syns_Voltorb_Flip
             pointSumCol4Lbl.Text = "Pts: " + colPointSums[4];
         }
 
+        public void updateVoltorbSums(int[] rowVoltSums, int[] colVoltSums)
+        {
+            voltorbRow0Lbl.Text = rowVoltSums[0].ToString();
+            voltorbRow1Lbl.Text = rowVoltSums[1].ToString();
+            voltorbRow2Lbl.Text = rowVoltSums[2].ToString();
+            voltorbRow3Lbl.Text = rowVoltSums[3].ToString();
+            voltorbRow4Lbl.Text = rowVoltSums[4].ToString();
+
+            voltorbCol0Lbl.Text = colVoltSums[0].ToString();
+            voltorbCol1Lbl.Text = colVoltSums[1].ToString();
+            voltorbCol2Lbl.Text = colVoltSums[2].ToString();
+            voltorbCol3Lbl.Text = colVoltSums[3].ToString();
+            voltorbCol4Lbl.Text = colVoltSums[4].ToString();
+        }
+
         // Uses the name of a tile to obtain its row/col for reference in the grid array.
         public void getTileCoord(ref Button tile)
         {

@@ -23,6 +23,8 @@ namespace Syns_Voltorb_Flip
         int turned3s;
         int[] rowPointSums;
         int[] colPointSums;
+        int[] rowVoltSums;
+        int[] colVoltSums;
         VoltorbFlipForm vff;
 
         public Game(VoltorbFlipForm vff)
@@ -40,9 +42,11 @@ namespace Syns_Voltorb_Flip
             turned3s = 0;
             rowPointSums = new int[5] { 0, 0, 0, 0, 0 };
             colPointSums = new int[5] { 0, 0, 0, 0, 0 };
+            rowVoltSums = new int[5] { 0, 0, 0, 0, 0 };
+            colVoltSums = new int[5] { 0, 0, 0, 0, 0 };
             generateGrid();
 
-            debugPrintGrid();
+            //debugPrintGrid();
         }
 
         // Resets the board for a new game after winning or losing a game
@@ -65,6 +69,24 @@ namespace Syns_Voltorb_Flip
                     colPointSums[col] += val; // Adds the number on the current tile to the sum of the points on the current column
                     rowPointSums[row] += grid[row, col]; // Adds the number on the current tile to the sum of the points on the current row
 
+                    // Adds up the total number of Voltorb tiles
+                    if (val == 0)
+                    {
+                        /* Dear future me: You somehow did this right on your first try. Good job, you won a cookie.
+                        _.:::::._
+                      .:::'_|_':::.
+                     /::' --|-- '::\
+                    |:" .---"---. ':|
+                    |: ( O R E O ) :|
+                    |:: `-------' ::|
+                     \:::.......:::/
+                      ':::::::::::'
+                         `'"""'`
+                       */
+                        colVoltSums[col]++;
+                        rowVoltSums[row]++;
+                    }
+
                     // Adds up the total number of 2 and 3 tiles, used for checking the win condition.
                     if (val == 2)
                     {
@@ -76,6 +98,7 @@ namespace Syns_Voltorb_Flip
                 }
             }
             vff.updatePointSums(rowPointSums, colPointSums);
+            vff.updateVoltorbSums(rowVoltSums, colVoltSums);
         }
 
         public int checkTile(int row, int col)

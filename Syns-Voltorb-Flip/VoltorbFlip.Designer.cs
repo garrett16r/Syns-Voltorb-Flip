@@ -101,6 +101,7 @@
             // tile02
             // 
             this.tile02.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.tile02.Font = new System.Drawing.Font("SAO UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tile02.Location = new System.Drawing.Point(236, 118);
             this.tile02.Name = "tile02";
             this.tile02.Size = new System.Drawing.Size(82, 77);
@@ -111,6 +112,7 @@
             // tile03
             // 
             this.tile03.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.tile03.Font = new System.Drawing.Font("SAO UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tile03.Location = new System.Drawing.Point(353, 118);
             this.tile03.Name = "tile03";
             this.tile03.Size = new System.Drawing.Size(82, 77);
@@ -121,6 +123,7 @@
             // tile04
             // 
             this.tile04.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.tile04.Font = new System.Drawing.Font("SAO UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tile04.Location = new System.Drawing.Point(468, 118);
             this.tile04.Name = "tile04";
             this.tile04.Size = new System.Drawing.Size(82, 77);
@@ -131,6 +134,7 @@
             // tile10
             // 
             this.tile10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.tile10.Font = new System.Drawing.Font("SAO UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tile10.Location = new System.Drawing.Point(5, 230);
             this.tile10.Name = "tile10";
             this.tile10.Size = new System.Drawing.Size(82, 77);
@@ -141,6 +145,7 @@
             // tile11
             // 
             this.tile11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.tile11.Font = new System.Drawing.Font("SAO UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tile11.Location = new System.Drawing.Point(120, 230);
             this.tile11.Name = "tile11";
             this.tile11.Size = new System.Drawing.Size(82, 77);
@@ -151,6 +156,7 @@
             // tile12
             // 
             this.tile12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.tile12.Font = new System.Drawing.Font("SAO UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tile12.Location = new System.Drawing.Point(236, 230);
             this.tile12.Name = "tile12";
             this.tile12.Size = new System.Drawing.Size(82, 77);
@@ -161,6 +167,7 @@
             // tile13
             // 
             this.tile13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.tile13.Font = new System.Drawing.Font("SAO UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tile13.Location = new System.Drawing.Point(353, 230);
             this.tile13.Name = "tile13";
             this.tile13.Size = new System.Drawing.Size(82, 77);
@@ -171,6 +178,7 @@
             // tile14
             // 
             this.tile14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.tile14.Font = new System.Drawing.Font("SAO UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tile14.Location = new System.Drawing.Point(468, 230);
             this.tile14.Name = "tile14";
             this.tile14.Size = new System.Drawing.Size(82, 77);
@@ -181,6 +189,7 @@
             // tile24
             // 
             this.tile24.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.tile24.Font = new System.Drawing.Font("SAO UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tile24.Location = new System.Drawing.Point(468, 342);
             this.tile24.Name = "tile24";
             this.tile24.Size = new System.Drawing.Size(82, 77);
@@ -191,6 +200,7 @@
             // tile23
             // 
             this.tile23.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.tile23.Font = new System.Drawing.Font("SAO UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tile23.Location = new System.Drawing.Point(353, 342);
             this.tile23.Name = "tile23";
             this.tile23.Size = new System.Drawing.Size(82, 77);
@@ -201,6 +211,7 @@
             // tile22
             // 
             this.tile22.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.tile22.Font = new System.Drawing.Font("SAO UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tile22.Location = new System.Drawing.Point(236, 342);
             this.tile22.Name = "tile22";
             this.tile22.Size = new System.Drawing.Size(82, 77);
@@ -211,6 +222,7 @@
             // tile21
             // 
             this.tile21.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.tile21.Font = new System.Drawing.Font("SAO UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tile21.Location = new System.Drawing.Point(120, 342);
             this.tile21.Name = "tile21";
             this.tile21.Size = new System.Drawing.Size(82, 77);
@@ -221,6 +233,7 @@
             // tile20
             // 
             this.tile20.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.tile20.Font = new System.Drawing.Font("SAO UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tile20.Location = new System.Drawing.Point(5, 342);
             this.tile20.Name = "tile20";
             this.tile20.Size = new System.Drawing.Size(82, 77);
@@ -231,6 +244,7 @@
             // tile34
             // 
             this.tile34.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.tile34.Font = new System.Drawing.Font("SAO UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tile34.Location = new System.Drawing.Point(468, 454);
             this.tile34.Name = "tile34";
             this.tile34.Size = new System.Drawing.Size(82, 77);
@@ -241,6 +255,7 @@
             // tile33
             // 
             this.tile33.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.tile33.Font = new System.Drawing.Font("SAO UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tile33.Location = new System.Drawing.Point(353, 454);
             this.tile33.Name = "tile33";
             this.tile33.Size = new System.Drawing.Size(82, 77);
@@ -251,6 +266,7 @@
             // tile32
             // 
             this.tile32.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.tile32.Font = new System.Drawing.Font("SAO UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tile32.Location = new System.Drawing.Point(236, 454);
             this.tile32.Name = "tile32";
             this.tile32.Size = new System.Drawing.Size(82, 77);
@@ -261,6 +277,7 @@
             // tile31
             // 
             this.tile31.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.tile31.Font = new System.Drawing.Font("SAO UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tile31.Location = new System.Drawing.Point(120, 454);
             this.tile31.Name = "tile31";
             this.tile31.Size = new System.Drawing.Size(82, 77);
@@ -271,6 +288,7 @@
             // tile30
             // 
             this.tile30.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.tile30.Font = new System.Drawing.Font("SAO UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tile30.Location = new System.Drawing.Point(5, 454);
             this.tile30.Name = "tile30";
             this.tile30.Size = new System.Drawing.Size(82, 77);
@@ -281,6 +299,7 @@
             // tile44
             // 
             this.tile44.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.tile44.Font = new System.Drawing.Font("SAO UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tile44.Location = new System.Drawing.Point(469, 567);
             this.tile44.Name = "tile44";
             this.tile44.Size = new System.Drawing.Size(82, 77);
@@ -291,6 +310,7 @@
             // tile43
             // 
             this.tile43.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.tile43.Font = new System.Drawing.Font("SAO UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tile43.Location = new System.Drawing.Point(354, 567);
             this.tile43.Name = "tile43";
             this.tile43.Size = new System.Drawing.Size(82, 77);
@@ -301,6 +321,7 @@
             // tile42
             // 
             this.tile42.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.tile42.Font = new System.Drawing.Font("SAO UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tile42.Location = new System.Drawing.Point(237, 567);
             this.tile42.Name = "tile42";
             this.tile42.Size = new System.Drawing.Size(82, 77);
@@ -311,6 +332,7 @@
             // tile41
             // 
             this.tile41.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.tile41.Font = new System.Drawing.Font("SAO UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tile41.Location = new System.Drawing.Point(121, 567);
             this.tile41.Name = "tile41";
             this.tile41.Size = new System.Drawing.Size(82, 77);
@@ -321,6 +343,7 @@
             // tile40
             // 
             this.tile40.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.tile40.Font = new System.Drawing.Font("SAO UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tile40.Location = new System.Drawing.Point(6, 567);
             this.tile40.Name = "tile40";
             this.tile40.Size = new System.Drawing.Size(82, 77);
